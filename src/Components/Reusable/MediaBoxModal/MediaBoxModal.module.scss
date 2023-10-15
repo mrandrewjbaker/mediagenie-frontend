@@ -1,0 +1,31 @@
+.MediaBoxModal {
+	display: none;
+
+	&__Opened {
+		display: flex;
+		flex-direction: column;
+		position: fixed;
+		justify-self: center;
+		align-self: center;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #1f1f1f80;
+
+		&_Modal {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			height: 100%;
+			background-color: #1e1e1e;
+			z-index: 100;
+		}
+	}
+
+	&__Closed {
+		display: none;
+	}
+}

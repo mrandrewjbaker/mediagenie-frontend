@@ -1,0 +1,43 @@
+.BButton {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	padding: 1rem;
+
+	&_button {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+		padding: 1rem;
+		border-radius: 0.35rem;
+		background-color: #1e1e1e;	
+
+		&_icon {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			height: 100%;
+			padding: 0.35rem;
+			border-radius: 0.35rem;
+		}
+
+		&_label {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			height: 100%;
+			padding: 0.35rem;
+			border-radius: 0.35rem;
+		}
+	}
+}
